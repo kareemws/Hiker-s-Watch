@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.kareemwaleed.hikerswatch.MainActivity"
+    android:background="@drawable/mountain">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1.5"
+            android:text="Hiker's Watch"
+            android:textAlignment="center"
+            android:textSize="30sp"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Latitude: "
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/latitudeTextView"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Longitute: "
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/longitudeTextView"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Accurecy: "
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/accuracyTextView"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Speed: "
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/speedTextView"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Bearing: "
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/bearingTextView"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="1"
+            android:text="Altitute: "
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:id="@+id/altitudeTextView"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0px"
+            android:layout_weight="2"
+            android:text="Address: "
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:id="@+id/addressTextView"
+            android:textColor="#000000"
+            android:paddingTop="10dp"/>
+    </LinearLayout>
+</RelativeLayout>
